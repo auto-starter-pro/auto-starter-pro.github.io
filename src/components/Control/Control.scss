@@ -1,0 +1,22 @@
+.Control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #aaaaaa;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.Control--hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.Control--on {
+  background-color: red;
+}

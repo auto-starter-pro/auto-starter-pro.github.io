@@ -1,0 +1,21 @@
+.EngineControl {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #aaaaaa;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.EngineControl--hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.EngineControl--on {
+  background-color: red;
+}

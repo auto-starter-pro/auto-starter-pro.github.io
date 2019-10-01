@@ -1,0 +1,17 @@
+.ListItem {
+  border-bottom: 1px solid #cccccc;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  height: 75px;
+}
+
+.ListItem-info {
+  flex: 1;
+}
+
+.ListItem-right {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
